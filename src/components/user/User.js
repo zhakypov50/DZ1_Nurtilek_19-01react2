@@ -19,7 +19,7 @@ export default function User ({userInfo}) {
     return (
         <div>
             <h3>{userInfo.name}</h3>
-            <button value={userInfo.id} onClick={() => {getUserInfo(userInfo.id)}}>подробнее</button>
+            <button value={userInfo.id} onClick={() => {getUserInfo(userInfo.id)}}>more</button>
             <p>----------------------------</p>
             {
                 <ul>
